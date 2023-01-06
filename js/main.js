@@ -11,9 +11,9 @@ const images = [
 ];
 
 function getImage(arr) {
-  for (const key of arr) {
-    const randomImage = Math.floor(Math.random() * arr.length);
-    return document.write(arr[randomImage]);
-  }
+  // for (const key of arr) {
+  const randomImage = Math.floor(Math.random() * arr.length);
+  return document.write(arr[randomImage]);
+  // }
 }
 getImage(images);
